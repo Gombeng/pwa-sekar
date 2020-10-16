@@ -1,0 +1,92 @@
+section {
+  min-height: 90vh;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+section h2 {
+  font-size: 2rem;
+  padding-bottom: 5vh;
+}
+
+#body-content {
+  background: pink;
+}
+
+.home {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  text-shadow: 3px 2px 1px #9e0c3d;
+}
+
+.home h2 {
+  font-size: 4rem;
+}
+
+.home p {
+  font-size: 1.5rem;
+}
+
+.about {
+  padding: 5vh 0;
+  text-align: left;
+}
+
+.about img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+.about p.title {
+  font-size: 1.5rem;
+}
+
+.gallery {
+  padding: 3vh 0;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.contact {
+  padding-top: 10vh;
+}
+
+.contact a.btn {
+  border-radius: 20px;
+  padding: 0 2rem;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .container {
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 375px) {
+  h2 {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
